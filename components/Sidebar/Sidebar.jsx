@@ -22,14 +22,6 @@ const Sidebar = () => {
                 >
                     <FaTasks size={30} />
                 </NavLink>
-
-                <NavLink
-                    to="login"
-                    className={css.item}
-                    title="Login Form"
-                >
-                    <FaTasks size={30} />
-                </NavLink>
                 <NavLink
                     to="register"
                     className={css.item}
