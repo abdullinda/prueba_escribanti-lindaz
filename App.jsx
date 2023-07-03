@@ -2,7 +2,6 @@ import {BrowserRouter, Route, Routes} from 'react-router-dom'
 import Layout from './components/Layout/Layout';
 import BoardPage from './pages/Board/Board';
 import Calendar from './pages/Calendar/Calendar';
-import LoginForm from './components/LoginForm/LoginForm';
 import Register from './components/Register/Register';
 
 
@@ -15,7 +14,6 @@ const App = () => {
 
           <Route path="calendar" element={<Calendar/>}/>
           <Route path="board" element={<BoardPage/>}/>
-          <Route path ="login" element={<LoginForm />}/>
           <Route path="register" element={<Register/>}/>
         
           
